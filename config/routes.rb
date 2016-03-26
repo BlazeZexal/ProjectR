@@ -1,6 +1,6 @@
 ProjectR::Application.routes.draw do
-  root to: "game#index"
   resource :games
+  root to: "games#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
